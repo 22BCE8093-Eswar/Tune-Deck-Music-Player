@@ -82,9 +82,9 @@ Playlist moves below content on smaller screens.
 
 ----
 
-***Installation***
+### Installation
 
-Clone the repository:
+***1. Clone the repository:***
 ```
 git clone https://github.com/22BCE8093-Eswar/Tune-Deck-Music-Player
 cd tune-deck-music-player
@@ -94,32 +94,38 @@ Open index.html in your browser.
 
 Upload songs using the 📂 Upload Songs button or use default songs in the songs/ folder.
 
-***Usage***
+---- 
 
-Load Page: Central loader logo animates with heartbeat.
+### Usage
 
-Player Interface: After animation, main player loads. Mini logo appears top-left.
+***Load Page:*** Central loader logo animates with heartbeat.
 
-Upload Songs: Click “📂 Upload Songs” to add your own audio files.
+***Player Interface:*** After animation, main player loads. Mini logo appears top-left.
 
-Play Music: Click a song in the playlist or use controls.
+***Upload Songs:*** Click “📂 Upload Songs” to add your own audio files.
 
-View Playlist: Right panel shows playlist with song covers.
+***Play Music:*** Click a song in the playlist or use controls.
 
-***Dependencies***
+***View Playlist:*** Right panel shows playlist with song covers.
+
+-----
+
+### Dependencies
 
 jsmediatags
  — For reading MP3 metadata.
 
-***Customization***
+-----
 
-Change Placeholder Logo: Replace images/placeholder.png.
+### Customization
 
-Change Mini Logo: Replace images/mini-logo.png.
+***Change Placeholder Logo:*** Replace images/placeholder.png.
 
-Add Default Songs: Add MP3s to songs/ folder and update defaultSongs array in script.js.
+***Change Mini Logo:*** Replace images/mini-logo.png.
+
+***Add Default Songs:*** Add MP3s to songs/ folder and update defaultSongs array in script.js.
 
 
-Open index.html in your browser.
+1. Open index.html in your browser.
 
-Upload songs using the 📂 Upload Songs button or use default songs in the songs/ folder.
+2. Upload songs using the 📂 Upload Songs button or use default songs in the songs/ folder.
