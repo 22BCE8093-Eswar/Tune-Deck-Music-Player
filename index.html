@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tune Deck</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Loader overlay -->
+  <div id="loader">
+    <img src="images/placeholder.png" alt="Logo" id="loader-logo">
+  </div>
+
+  <!-- Player -->
+  <div id="player" style="display:none;">
+    <div class="player-container">
+      <img src="images/logo.png" alt="Logo" id="mini-logo">
+      <h1>Tune Deck</h1>
+
+      <!-- Upload Files -->
+      <label id="upload-btn" for="file-input">📂 Upload Songs</label>
+      <input type="file" id="file-input" accept="audio/*" multiple style="display:none;">
+
+      <div class="main-content">
+        <!-- Left panel -->
+        <div class="left-panel">
+          <div class="song-info">
+            <img id="cover" src="placeholder.png" alt="Album Cover">
+            <h2 id="title">Song Title</h2>
+            <p id="artist">Artist Name</p>
+          </div>
+          <audio id="audio"></audio>
+          <div class="controls">
+            <button id="prev">⏮</button>
+            <button id="play">▶</button>
+            <button id="next">⏭</button>
+          </div>
+          <div class="progress-container" id="progress-container">
+            <div class="progress" id="progress"></div>
+          </div>
+          <div class="time">
+            <span id="current-time">0:00</span>
+            <span id="duration">0:00</span>
+          </div>
+          <div class="volume-container">
+            <label for="volume">🔊</label>
+            <input type="range" id="volume" min="0" max="1" step="0.01">
+          </div>
+        </div>
+
+        <!-- Right: Playlist -->
+        <div class="playlist-container">
+          <h3>Playlist</h3>
+          <ul id="playlist" class="playlist-list"></ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="jsmediatags.min.js"></script>
+  <script src="script.js"></script>
+  <script src="loader.js"></script>
+</body>
+
+</html>
