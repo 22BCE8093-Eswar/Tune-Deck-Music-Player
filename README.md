@@ -1,6 +1,12 @@
 ### Tune Deck Music Player
 
-A modern web-based music player with a Spotify-like interface. Features include:
+A modern web-based music player with a Spotify-like interface. 
+
+Live Demo : https://tunedeck.netlify.app/
+
+------
+
+### Features include:
 
 Loader animation with heartbeat effect.
 
@@ -10,11 +16,15 @@ Playlist with song cover images, title, and artist.
 
 Upload your own songs (supports multiple files).
 
+----
+
 ### Audio controls: Play, Pause, Next, Previous.
 
 Progress bar and volume control.
 
 Responsive design for mobile devices.
+
+----
 
 ### Demo
 
@@ -30,6 +40,9 @@ Responsive design for mobile devices.
     <td><img src="images/logo.png" width="370"/> </td>
   </tr>
 </table>
+
+
+-----
 
 ### Features
 
@@ -67,7 +80,9 @@ Adapts to mobile and desktop screens.
 
 Playlist moves below content on smaller screens.
 
-Installation
+----
+
+***Installation***
 
 Clone the repository:
 ```
