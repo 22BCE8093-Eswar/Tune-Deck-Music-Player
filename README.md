@@ -86,7 +86,7 @@ Playlist moves below content on smaller screens.
 
 ***1. Clone the repository:***
 ```
-git clone https://github.com/22BCE8093-Eswar/Tune-Deck-Music-Player
+git clone https://github.com/EswarReddyBoyi/Tune-Deck-Music-Player
 cd tune-deck-music-player
 ```
 
